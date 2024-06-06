@@ -1,0 +1,20 @@
+<p id="demo"></p>
+<script>
+    //The for in statement loops through the properties of an object:
+    let emp={name:"brijesh",lname:"pandey",age:35}
+    // for (const key in object) {
+    //     if (Object.hasOwnProperty.call(object, key)) {
+    //         const element = object[key];
+            
+    //     }
+    // }
+
+    let txt=" ";
+    for(let x in emp)
+    {
+        txt +=emp[x]+ "&nbsp";
+        // document.write(txt);
+        document.getElementById("demo").innerHTML=txt;
+    }
+
+</script>
