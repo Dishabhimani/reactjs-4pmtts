@@ -1,0 +1,33 @@
+{
+    "employee-details":[
+    {
+    "id":1001,
+    "name":"bina",
+    "age":24,
+    "salary":78500,
+    "address":"150 feet ring road rajkot"
+    
+    },
+    
+    {
+    "id":1002,
+    "name":"Diya",
+    "age":26,
+    "salary":78800,
+    "address":"150 feet ring road rajkot"
+    
+    }
+    
+    ],
+    
+    "users-details":[
+    {
+    "id":1002,
+    "name":"vir",
+    "age":38,
+    "salary":78800,
+    "address":"150 feet ring road rajkot"
+    
+    }
+    ]
+    }

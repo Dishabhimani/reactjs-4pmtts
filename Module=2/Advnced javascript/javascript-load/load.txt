@@ -1,0 +1,3 @@
+hi i just using load method but we load using this method without page refresh 
+This method only run on server side executions.
+Hey i am happy to load.

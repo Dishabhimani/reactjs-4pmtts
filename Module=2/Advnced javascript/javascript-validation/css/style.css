@@ -1,0 +1,126 @@
+@import url('fonts-face.css');
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+font-family:ellora;
+}
+/* loader applied here */
+#main-section
+{
+    display: none;
+    position: relative;
+}
+#loader
+{
+    width: 350px !important;
+    height: 220px !important;
+    background: url('../images/loader.gif') no-repeat;
+    /* background: url('../images/loader1.jpg') no-repeat; */
+    background-size: 350px 220px !important;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}
+#task-manager-header
+{
+width: 100%;
+height: auto;
+margin: 0;
+background-color: #546e7a;
+font-family:ellora;
+}
+.btn-task
+{
+    width: auto;
+    height: auto;
+    background-color: #eeff4c !important;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+.btn-task-app
+{
+    width: 150px !important;
+    height: auto !important;
+    background-color: #eeff4c !important;
+    border: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black; 
+}
+#task-manager-content
+{
+width: 100%;
+height: auto;
+margin: 0;
+font-family:ellora;
+}
+#task-manager-footer
+{
+width: 100%;
+height: auto;
+margin: 0;
+padding: 10px;
+font-family:ellora;
+background-color: #546e7a;
+}
+.border-bottom
+{
+    border-bottom: solid 2px gray !important;
+}
+::placeholder
+{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+/* media query */
+@media only screen and (max-width:558px)
+{
+.input-group
+{
+    width: 100% !important;
+    height: auto !important;
+}
+.table-responsive
+{
+    width: 100% !important;
+    height: auto !important;
+}   
+}
+@media only screen and (max-width:768px)
+{
+ 
+  
+.input-group
+{
+    width: 100% !important;
+    height: auto !important;
+}
+.table-responsive
+{
+    width: 100% !important;
+    height: auto !important;
+}     
+}
+@media only screen and (max-width:1024px)
+{
+    
+.input-group
+{
+    width: 100% !important;
+    height: auto !important;
+}
+.table-responsive
+{
+    width: 100% !important;
+    height: auto !important;
+}   
+}
+@media only screen and (max-width:1240px)
+{
+    
+}
