@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Onsubmit events</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function chk()
+        {
+            var nm=document.getElementById("nm").value;
+            alert('My name is :'+nm);
+        }
+    </script>
+</head>
+<body>
+    <form>
+       <input type="text" id="nm" placeholder="Name *" >
+       <br><br>
+       <button type="button" name="submit" onclick="chk()" >Login</button>
+    </form>
+    
+</body>
+</html>
